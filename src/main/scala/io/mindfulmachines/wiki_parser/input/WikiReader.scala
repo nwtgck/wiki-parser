@@ -1,4 +1,4 @@
-package input
+package io.mindfulmachines.wiki_parser.input
 
 import java.io.InputStream
 import scala.collection.mutable.ArrayBuffer
