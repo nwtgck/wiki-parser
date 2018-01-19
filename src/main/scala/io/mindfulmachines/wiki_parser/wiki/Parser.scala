@@ -1,11 +1,11 @@
-package wiki
+package io.mindfulmachines.wiki_parser.wiki
 
 import java.io.ByteArrayInputStream
 
 import info.bliki.wiki.dump.{Siteinfo, IArticleFilter, WikiXMLParser, WikiArticle}
 import info.bliki.wiki.filter.WikipediaParser
 import info.bliki.wiki.model.WikiModel
-import input.WikiInputFormat
+import io.mindfulmachines.wiki_parser.input.WikiInputFormat
 import org.apache.commons.lang3.StringEscapeUtils
 import org.apache.hadoop.io.{Text, LongWritable}
 import org.apache.spark.SparkContext

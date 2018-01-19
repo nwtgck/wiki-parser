@@ -1,4 +1,4 @@
-package input
+package io.mindfulmachines.wiki_parser.input
 
 /**
   * Licensed to the Apache Software Foundation (ASF) under one
