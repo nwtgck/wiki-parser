@@ -2,7 +2,8 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "io.mindfulmachines",
-      scalaVersion := "2.10.4",
+      scalaVersion := "2.11.12",
+      crossScalaVersions := Seq("2.10.4", "2.11.12"),
       version      := "1.0-SNAPSHOT"
     )),
     name := "wiki-parser",
