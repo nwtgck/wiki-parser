@@ -7,7 +7,6 @@ lazy val root = (project in file(".")).
     )),
     name := "wiki-parser",
     libraryDependencies ++= Seq(
-      "org.scala-lang" % "scala-library" % "2.10.4",
       "org.scalatest" %% "scalatest" % "2.2.4",
       "org.apache.spark" %% "spark-core" % "1.5.2",
       "org.apache.spark" %% "spark-sql" % "1.5.2",
