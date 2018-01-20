@@ -6,7 +6,7 @@ Provides methods for parsing various Wikipedia data sources (articles, click str
 The details are here: <http://www.teachingmachines.io/blog/2015/12/20/wikipedia-data-in-spark>
 
 
-## How to import this library
+## How to import `wiki-parser`
 
 ### `build.sbt`
 
@@ -59,3 +59,7 @@ object Main{
   }
 }
 ```
+
+### Example project using `wiki-parser`
+
+https://github.com/nwtgck/wiki-parser-prac-scala
