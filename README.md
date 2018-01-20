@@ -15,11 +15,11 @@ Write your `build.sbt` like the following.
 ```scala
 lazy val root = project.in(file(".")).
   // (from: https://github.com/sbt/sbt/issues/3489)
-  dependsOn(RootProject(uri("git://github.com/nwtgck/wiki-parser-scala.git#656a0c84c3edeb7233abd249d2d98a02a43b67a6"))).
+  dependsOn(RootProject(uri("git://github.com/nwtgck/wiki-parser-scala.git#9632f9c2bd8602cdfa1ea51882bd8b1573c2de66"))).
   settings(
     inThisBuild(List(
       organization := "io.github.nwtgck",
-      scalaVersion := "2.10.4",
+      scalaVersion := "2.11.12",
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "wiki-parser-prac-scala",
